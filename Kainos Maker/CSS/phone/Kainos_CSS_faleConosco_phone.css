@@ -1,0 +1,239 @@
+@charset="utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+
+/*----------Formatação da Interface----------*/
+ body{
+    background-color: #ccc;
+	margin-bottom: -20px;
+}
+
+/*----------Formatação do Menu Principal----------*/
+
+nav#menu {
+	margin-top:-20px;
+	margin-left: -10px;
+	margin-right: -10px;
+	display: float;
+	background-color: #f5ce29;
+	/* background-color: yellow; */
+	height: 80px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,.2);
+}
+
+nav#menu img{
+	position: absolute;
+    margin: 16px 0px 0px 50px;
+	margin-left: 50px;
+    
+}
+nav#menu a#logo{
+	
+	text-decoration: none;
+	
+}
+nav#menu a.botoes{
+	
+	text-decoration: none;
+	color: black;
+	padding: 5px 2px 5px 2px;
+	margin-right: 15px;
+	/* border-radius: 10px;  */
+	/* -webkit-transition: all .1s ease-in; */
+	
+	
+}
+nav#menu a.botoes:hover {
+
+	 
+	border-bottom: 3px solid red;
+	/* -webkit-transform: scale(1.5); */
+	/* background-color: red; */
+	/* color: white; */
+	/* box-shadow: 0px 0px 3px rgba(0,0,0,.5); */
+	
+}
+
+nav#menu a#especial{
+	border-bottom: 3px solid red;
+}
+
+nav#menu ul#menuPrincipal{
+	
+	list-style: none;
+	position: relative;
+	margin-left: 680px;
+	
+}
+
+nav#menu li.bP{
+	
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bolder;
+	font-size: 13pt;
+	display: inline-block;
+	/* background-color: yellow; */
+	padding: 5px;
+	margin: 10px;
+	margin-top: 25px;
+}
+nav#menu li#teste{
+	color: #939393;
+    user-select: none;
+}
+
+
+/*----------Formatação do Formulario----------*/
+
+
+form#faleConosco{
+	position: relative;
+	display: block;
+	padding: 20px;
+	width: 250px;
+	margin: 150px auto;
+	border: 1px solid black;
+	border-radius: 20px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,.2);
+	background-color: #f5ce29;
+
+	
+}
+form#faleConosco legend{
+	margin-top: 15px;
+	font-family: 'Exo 2',  sans-serif;
+}
+form#faleConosco span{
+	text-align: center;
+	font-family: 'Exo 2',  sans-serif;
+	font-weight: bolder;
+	text-decoration: underline black;
+}
+form#faleConosco input#emailUser{
+	border-radius: 15px;
+	border: 1px solid black;
+	padding: 5px;
+	margin-top: 5px;
+}
+form#faleConosco input#emailUser:valid{
+	
+	border: 1px solid green;
+	
+}
+form#faleConosco textarea#mensagemUser{
+	border-radius: 15px;
+	border: 1px solid black;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+
+form#faleConosco input#enviar{
+	color: white;
+	background-color: black;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 13pt;
+	border: none;
+	padding: 10px 100px;
+	border-radius: 15px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+form#faleConosco input#assunto{
+	border-radius: 15px;
+	border: 1px solid black;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+
+
+/*----------Formatação do rodape---------*/
+
+footer#rodape a{
+	color: white;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	
+}
+footer#rodape .rodape{
+	display: inline-block;
+}
+footer#rodape{
+	padding-top: 15px;
+	padding-bottom:15px;
+	display: block;
+	clean: both;
+	background-color: black;
+	margin-left: -3px;
+	margin-right: -8px;
+	text-align: center;
+	box-shadow: 2px 2px 50px rgba(0,0,0,1);
+
+}
+
+
+@media (max-width: 480px) {
+	
+	div#interface{
+		background-color: rgba(0,0,0,0);
+		width: 390%;
+		height: 150%;
+		padding: 30px 0px; 
+	}
+	nav#menu ul#menuPrincipal{
+		/*margin-left: 180px;*/
+		visibility: hidden;
+		position: absolute;
+		width: 1390px;
+		padding-left: 0px;
+		margin-top: 250px;
+	}
+	nav#menu li.bP{
+		text-align: center;
+		border-bottom: 2px solid black;
+		width: 1390px;
+		display: block;
+		padding: 60px 0px;
+		padding-bottom: 80px;
+	}
+	nav#menu{
+		width: 392%;
+		height: 200px;
+	}
+	nav#menu img#logo1{
+    	margin: 15px 100px;
+    	margin-left: 300px;
+    	width: 700px;
+	}
+	footer#rodape{
+		width: 390%;
+		height: auto;
+	}
+	
+	footer#rodape a img{
+	  	width: 350px;		
+	}
+	nav#menu  img#mobile{
+		position: absolute;
+		visibility: visible;
+		margin-left: 25px;
+		margin-top: 25px;
+	}
+	nav#menu  img#mobile2{
+		position: absolute;
+	    visibility: visible;
+		margin-left: 25px;
+		margin-top: 25px;
+	}
+	body{
+		width: 100%;
+		height: 100%;
+	}
+	nav#menu li.bP span#S{
+		border-bottom: 5px solid red;
+	}
+
+
+}

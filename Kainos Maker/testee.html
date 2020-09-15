@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+
+	function teste(valor){
+		var i = 0;
+		while(i <100){
+ 	for(i = 0 ; i < 100 ; i++){
+ 		
+ 		document.getElementById("body").style.backgroundColor ="green";
+ 		document.getElementById("body").style.transform = "scaleX(0)";
+ 		document.getElementById("body").style.transition = "transform 3s ease";
+
+ 	}
+		
+		}
+
+		setTimeout(function(){document.getElementById("div").style.opacity = "0";}, 3100);
+		
+
+	}
+	</script>
+	<style type="text/css">
+		body{
+			margin-top: -10px;
+		}
+		button#body{
+			width: 1355px;
+			border: none;
+			height: 10px;
+			margin-top: -10px;
+		}
+		p{
+			width: 1355px;
+			border: none;
+			background: yellow;
+		
+		}
+		div{
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body >
+	<div id="div">
+ 
+ </div>
+</body>
+</html>

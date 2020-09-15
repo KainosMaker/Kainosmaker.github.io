@@ -1,0 +1,105 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+
+/*----------Formatação da Interface----------*/
+body{
+margin-bottom: -20px;
+background-color: #f6f4e6;
+overflow: auto;
+}
+
+div#interface{
+	
+	margin-left: -10px;
+	
+	
+}
+/*----------Formatação Corpo Principal----------*/
+
+	div#Artigo{
+		margin: 0px auto;
+		display: flex;
+		justify-content: center;
+		width: 1100px;
+		background-color: #f2e9b0;
+		padding: 20px;
+	}
+
+	div#Artigo img{
+		margin: 20px auto;
+		
+		display: block;
+		border-radius: 15px;
+		border: 1px solid #fddb3a;
+	}
+	div#Artigo ul li{
+		list-style: none;
+	}
+
+	div#Artigo ul li h1{
+		color: #41444b;
+		font-family: 'Exo 2', sans-serif;
+		margin-bottom: 0px;
+	}
+
+	div#Artigo ul div#publish{
+		width: 300px;
+		padding: 10px;
+		height: 100px;
+		margin-bottom: 50px;
+	}
+
+	div#Artigo ul li.abc img{
+		margin: 0px 0px;
+		width: 90px;
+		border: none;
+	}
+	div#Artigo ul li.abc img#clock{
+		margin-left: 10px;
+		width: 20px;
+		border: none;
+	}
+	div#Artigo ul li.abc img#calendar{
+		margin-left: 10px;
+		width: 15px;
+		border-radius: 0px;
+		border: none;
+		margin-bottom: 3px;
+	}
+
+	div#Artigo ul li.abc{
+		float: left;
+	}
+
+	div#Artigo ul li.abc h2{
+		color: #41444b;
+		margin-left: 10px;
+		margin-right: 40px;
+		margin-bottom: 5px;
+		margin-top: 10px;
+		font-family: 'Exo 2', sans-serif;
+	}
+	div#Artigo ul li.abc h5{
+		color:#41444b;
+		margin-right: 10px;
+		margin-left: 10px;
+		font-family: 'Exo 2', sans-serif;
+		margin-top: 0px;
+		margin-bottom: 3px;
+	}
+
+
+	article{
+		width: 1000px;
+	}
+
+	article p{
+		color: #41444b;
+		font-family:'Exo 2', sans-serif;
+		font-size: 21px;
+		line-height: 1.5;
+		width: 950px;
+	}
+

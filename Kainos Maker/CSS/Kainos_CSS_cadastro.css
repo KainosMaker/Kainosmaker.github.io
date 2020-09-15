@@ -1,0 +1,25 @@
+@charset = "utf-8";
+body{
+	background-color: #f5ce29;
+}
+h1{
+	text-align: center;
+}
+form{
+	display: block;
+	width: 200px;
+	margin: 10px auto;
+}
+form input{
+	background-color: rgba(0,0,0,0);
+	border: none;
+	border-bottom: 2px solid black;
+	margin-top: 2px;
+	user-select: none;
+	padding: 10px;
+	font-size: 14pt;
+	font-family: 'Exo 2', sans-serif;
+}
+form legend{
+	margin-top: 40px;
+}

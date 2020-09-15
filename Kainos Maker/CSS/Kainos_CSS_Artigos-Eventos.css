@@ -1,0 +1,101 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+body{
+	background-color: #f6f4e6;
+	margin-bottom: -10px;
+}
+div#interface{
+	width: 1000px;
+	margin: 20px auto;
+}
+div#interface ul li{
+	list-style: none;
+	border-bottom: 2px solid #41444b;
+}
+div#interface ul li a{
+	text-decoration: none;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 10pt;
+	text-align: justify;
+	color: #41444b;
+	
+}
+div#interface ul li a:hover{
+	text-decoration: underline;
+
+	
+}
+div#interface ul li a h1{
+	width: 350px;
+}
+
+div#interface ul li p{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 16pt;
+	text-align: justify;
+	width: 450px;
+}
+div#interface ul li img{
+	float: right;
+	width: 220px;
+
+}
+
+
+
+
+
+
+
+div#interface div#publish{
+		width: 300px;
+		padding: 10px;
+		height: 100px;
+		margin-bottom: 50px;
+		float: right;
+}
+
+div#interface div#publish ul li.abc img{
+		margin: 0px 0px;
+		width: 90px;
+		border: none;
+}
+div#interface div#publish ul li.abc img#clock{
+		margin-left: 10px;
+		width: 15px;
+		border: none;
+}
+
+div#interface div#publish li.abc img#calendar{
+		margin-left: 10px;
+		width: 12px;
+		border-radius: 0px;
+		border: none;
+		margin-bottom: 3px;
+}
+
+div#interface div#publish ul li.abc{
+		float: left;
+		border: none;
+}
+
+div#interface div#publish ul li.abc h2{
+		color: #41444b;
+		margin-left: 10px;
+		margin-right: 40px;
+		margin-bottom: 5px;
+		margin-top: 10px;
+		font-size: 13pt;
+		font-family: 'Exo 2', sans-serif;
+}
+
+div#interface div#publish ul li.abc h5{
+		color:#41444b;
+		margin-right: 10px;
+		margin-left: 10px;
+		font-family: 'Exo 2', sans-serif;
+		margin-top: 0px;
+		font-size: 8pt;
+		margin-bottom: 3px;
+}

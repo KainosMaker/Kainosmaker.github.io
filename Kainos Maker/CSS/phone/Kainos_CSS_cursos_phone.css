@@ -1,0 +1,252 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+
+/*----------Formatação da Interface----------*/
+body{
+margin-bottom: -20px;
+overflow: auto;
+background-color: #ccc;
+}
+
+div#interface{
+	margin-left: -10px;
+	margin-right: -10px;
+	
+}
+
+
+/*----------Formatação do Menu Principal----------*/
+header{
+	background-color: #f5ce29;
+	box-shadow: 2px 2px 30px rgba(0,0,0,.2);
+}
+nav#menu {
+	margin-top:-20px;
+	margin-left: -20px;
+	margin-right: -8px;
+	display: float;
+	/* background-color: yellow; */
+	height: 80px;
+	width:auto;
+	background-color: #f5ce29;
+
+	
+}
+
+nav#menu img{
+	position: absolute;
+    margin: 16px 0px 0px 50px;
+	margin-left: 50px;
+    
+}
+nav#menu a#logo{
+	
+	text-decoration: none;
+	
+}
+nav#menu a.botoes{
+	
+	text-decoration: none;
+	color: black;
+	padding: 5px 2px 5px 2px;
+	margin-right: 15px;
+	/* border-radius: 10px;  */
+	/* -webkit-transition: all .1s ease-in; */
+	
+	
+}
+nav#menu a.botoes:hover {
+
+	 
+	border-bottom: 3px solid red;
+	/* -webkit-transform: scale(1.5); */
+	/* background-color: red; */
+	/* color: white; */
+	/* box-shadow: 0px 0px 3px rgba(0,0,0,.5); */
+	
+}
+nav#menu a#o{
+	border-bottom: 3px solid red;
+}
+nav#menu ul#menuPrincipal{
+	display: block;
+	width: 650px;
+	list-style: none;
+	/* position: relative; */
+	
+	margin: 10px auto;
+	margin-right: 0px;
+	
+}
+
+nav#menu li.bP{
+	
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bolder;
+	font-size: 70pt;
+	display: inline-block;
+	/* background-color: yellow; */
+	padding: 5px;
+	margin: 10px;
+	margin-top: 25px;
+}
+nav#menu li#especial{
+	color: #939393;
+    user-select: none;
+}
+nav#menu span{
+	border-bottom: 7px solid red;
+}
+/*----------Formatação da Pagina----------*/
+
+ div#cursos h1{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 140pt;
+	color: rgba(0,0,0,.5);
+	text-align: center; 
+	margin-top: 150px;
+	text-shadow: 1px 1px 5px rgba(0,0,0,.5);;
+}
+div#cursos form{
+	margin-top: 100px;
+	height: 600px;
+	width: 800px;
+	margin: 0px auto;
+	border: 1px solid black;
+	padding: 40px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 10px rgba(0,0,0, .5);
+	background-color: #f5ce29;
+	margin-bottom: 255px;
+}
+}
+div#cursos form label{
+	font-family: 'Exo 2', sans-serif;
+	}
+
+div#cursos form input{
+	padding: 10px;
+	font-size: 40pt;
+	margin-top: 30px;
+	border: none;
+	border-bottom: 2px solid black;
+	background: none;
+	color: black;
+}
+div#cursos form input#submit{
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 10px 210px;
+	border-radius: 40px;
+	cursor: pointer;
+	font-size: 50pt;
+}
+div#cursos form input::placeholder{
+	color: rgba(0,0,0,.5);
+}
+
+div#cursos form p{
+	margin-top: 0px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bolder;
+	font-size: 40pt;
+}
+/*----------Formatação do rodapé----------*/
+
+
+footer#rodape a{
+	color: white;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 40pt;
+}
+footer#rodape a img{
+	margin:0px 30px;	
+}
+
+footer#rodape h1{
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+	letter-spacing: 4px;
+	font-size: 60pt;
+}
+footer#rodape{
+	padding-top: 15px;
+	padding-bottom:15px;
+    height: auto;
+    margin-left: -10px;
+	display: block;
+	clear: both;
+	background-color: black;
+	text-align: center;
+	box-shadow: 2px 2px 50px rgba(0,0,0,.5);
+
+}
+
+
+@media (max-width: 480px) {
+	
+	div#interface{
+		background-color: rgba(0,0,0,0);
+		width: 390%;
+		height: 150%;
+		padding: 30px 0px; 
+	}
+	nav#menu ul#menuPrincipal{
+		/*margin-left: 180px;*/
+		visibility: hidden;
+		position: absolute;
+		width: 1390px;
+		padding-left: 0px;
+		margin-top: 250px;
+	}
+	nav#menu li.bP{
+		text-align: center;
+		border-bottom: 2px solid black;
+		width: 1390px;
+		display: block;
+		padding: 60px 0px;
+		padding-bottom: 80px;
+	}
+	nav#menu{
+		width: 392%;
+		height: 200px;
+	}
+	nav#menu img#logo1{
+    	margin: 15px 100px;
+    	margin-left: 300px;
+    	width: 700px;
+	}
+	footer#rodape{
+		width: 390%;
+		height: auto;
+	}
+	
+	footer#rodape a img{
+	  	width: 350px;		
+	}
+	nav#menu  img#mobile{
+		position: absolute;
+		visibility: visible;
+		margin-left: 25px;
+		margin-top: 25px;
+	}
+	nav#menu  img#mobile2{
+		position: absolute;
+	    visibility: visible;
+		margin-left: 25px;
+		margin-top: 25px;
+	}
+	body{
+		width: 100%;
+		height: 100%;
+	}
+	nav#menu li.bP span#S{
+		border-bottom: 5px solid red;
+	}
+
+
+}

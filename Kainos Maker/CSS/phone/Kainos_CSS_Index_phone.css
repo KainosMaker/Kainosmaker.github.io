@@ -1,0 +1,286 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+
+/*----------Formatação da Interface----------*/
+body{
+margin-bottom: -20px;
+background-color: #ccc;
+overflow: auto;
+}
+
+div#interface{
+	
+	margin-left: -10px;
+	
+	
+}
+
+
+/*----------Formatação Corpo Principal----------*/
+
+section#artigosHomePage{
+	
+	margin-top: 0px;
+	
+}
+
+article#conteudo{
+	height: 400px;
+	width: auto;
+	background-image: url("../../IMAGES/Design sem nome.png");
+	background-position: 0% 30%;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+    position: relative;
+    padding: 30px;
+	
+}
+
+
+article#conteudo h1{
+	margin: 150px auto;
+    font-family: 'Exo 2', sans-serif;
+	font-size: 50pt;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 1px 1px 5px black;
+	color: black;
+  
+	
+ 
+}
+
+article#conteudo p{
+	width: 800px;
+    font-family: Arial, sans-serif;
+	font-size: 24pt;
+	text-align: center;
+	font-weight: bolder;
+	margin: 10px auto;
+	
+}
+
+
+
+/*----------Formatação dos Artigos Principais----------*/
+
+div#vitrineArtigos{
+	width: 99%;
+	margin: 0px auto; 
+	margin-left: -10px; 
+	background-color: #f5ce29;
+	padding: 10px;
+	height: 800px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,.2);
+	/* margin-bottom: 0px; */
+	/* border-top: 1px solid black; */
+	margin-bottom: 0px;
+	
+
+}
+
+/*_____Artigo 1_____*/
+
+ul#artigosEmLinha {
+	height: 800px;
+	
+	display: flex;   /*!!!!*/
+	overflow-x: auto;   /*!!!!*/
+	-webkit-scrollbar{  /*!!!!*/
+  	height: 800px;
+  	background-color: rgba(0,0,0,.2);
+  }
+}
+
+ul#artigosEmLinha li{
+	display: inline-flex;
+	
+	
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 50px;
+	height: 650px;
+    width: 410px;
+	margin-right: 25px;
+	margin-bottom: 30px;
+	transition: box-shadow, .2s;
+    flex-shrink: 0;  /*!!!!*/
+	-webkit-overflow-scrolling: auto;  /*!!!!*/
+}
+
+article.Artigos1{
+	
+}
+
+article.Artigos1 figure{
+    position: relative;
+	border-radius: 15px;
+	border: 1px solid rgba(0,0,0,1);
+	width: 410px;
+	height: 350px;
+	margin-left: 0px;
+
+} 
+
+article.Artigos1 img{
+	border-radius: 15px;
+	width: 100%;
+    height: 100%;
+	
+
+}
+
+
+article.Artigos1 h2{
+	margin-top: 0px;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 26pt;
+	text-align: left;
+	margin-bottom: 20px;
+}
+article.Artigos1 p{
+	position: relative;
+	box-sizing: border-box;
+	margin-top: -10px;
+	font-family: Arial, sans-serif;
+	font-size: 18pt;
+	/* user-select: none; */
+}
+
+article.Artigos1 a#lerMais{
+	float: right;
+	font-family: 'Exo 2', sans-serif;
+	margin-right: 50px;
+
+    text-decoration: none;
+    color: black;
+  
+}
+article.Artigos1 a.tituloArtigo{
+	
+    text-decoration: none;
+    color: black;
+  
+}
+
+
+article.Artigos1 figure figcaption {
+	transition: .3s;
+	opacity: 0;
+	position: absolute;
+	border-radius: 15px;
+	color: rgba(0,0,0,0);
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,.1);
+	box-sizing: border-box;
+
+}
+article.Artigos1 figure:hover figcaption{
+
+	opacity:1;
+
+}
+
+@media (max-width: 480px) {
+	div#interface{
+		background-color: rgba(0,0,0,0);
+		width: 300%;
+		height: 150%;
+		padding: 30px 0px; 
+	}
+	nav#menu ul#menuPrincipal{
+		/*margin-left: 180px;*/
+		visibility: hidden;
+		position: absolute;
+		width: 1000px;
+		padding-left: 0px;
+	}
+	nav#menu li.bP{
+		text-align: center;
+		border-bottom: 2px solid black;
+		width: 1060px;
+		display: block;
+		padding: 30px 0px;
+		padding-bottom: 50px;
+	}
+	nav#menu{
+		width: 300%;
+		height: 180px;
+	}
+	nav#menu img#logo1{
+    	margin: 10px 100px;
+    	margin-left: 200px;
+    	width: 700px;
+	}
+	
+	form{
+
+		margin-left: 10%;
+	}
+	span#span h1{
+		font-size: 100pt;
+		width: 100%;
+	}
+	
+	nav#menu  img#mobile{
+		position: absolute;
+		visibility: visible;
+		margin-left: 25px;
+		margin-top: 25px;
+	}
+	nav#menu  img#mobile2{
+		position: absolute;
+	    visibility: visible;
+		margin-left: 25px;
+		margin-top: 25px;
+	}
+	body{
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+
+	footer#rodape{
+		width: 1000px;
+		height: auto;
+	}
+	footer#rodape figure a img{
+	  	width: 100px;		
+	}
+	footer#rodape figure#NR{
+
+	width: 100px;
+	height: 100px;
+	}
+
+	footer#rodape figure#CEBAC{
+
+	width: 100px;
+	height: 100px;
+	}
+
+	footer#rodape figure#EDU{
+
+	width: 100px;
+	height: 100px;
+	}
+
+	footer#rodape figure#RBAC{
+
+	width: 100px;
+	height: 100px;
+    }
+
+    footer#rodape figure#CDF{
+
+	width: 100px;
+	height: 100px;
+	}
+	
+}

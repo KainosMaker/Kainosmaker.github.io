@@ -1,0 +1,229 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+
+/*----------Formatação da Interface----------*/
+body{
+margin-bottom: -20px;
+background-color: #f6f4e6;
+overflow: auto;
+}
+
+div#interface{
+	
+	margin-left: -10px;
+	
+	
+}
+/*----------Formatação Corpo Principal----------*/
+
+section#artigosHomePage{
+	
+	margin-top: 0px;
+	
+}
+
+article#conteudo{
+	height: 400px;
+	width: auto;
+	background-image: url("../IMAGES/Design sem nome.png");
+	background-position: 0% 30%;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+    position: relative;
+    padding: 30px;
+	
+}
+
+
+article#conteudo h1{
+	margin: 150px auto;
+    font-family: 'Exo 2', sans-serif;
+	font-size: 54pt;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 1px 1px 5px black;
+	color: #41444b;
+
+     
+}
+
+article#conteudo p{
+	width: 800px;
+    font-family: Arial, sans-serif;
+	font-size: 24pt;
+	text-align: center;
+	font-weight: bolder;
+	margin: 10px auto;
+	
+}
+
+
+
+/*----------Formatação dos Artigos Principais----------*/
+
+div#vitrineArtigos{
+	width: 1335px;
+	margin: 0px auto; 
+	background-color: #fddb3a;
+	padding: 10px;
+	margin-left: -5px;
+	margin-right: -8px; 
+	box-shadow: 2px 2px 30px rgba(0,0,0,.2);
+	/* margin-bottom: 0px; */
+	/* border-top: 1px solid black; */
+}
+
+div#vitrineArtigos h1{
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	font-size: 40pt;
+	color: #41444b;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-shadow: 1px 1px 5px #41444b; 
+
+}
+
+/*_____Artigo 1_____*/
+
+ul#artigosEmLinha{
+	padding-left: 30px;
+	height: 500px;
+}
+
+ul#artigosEmLinha li{
+	display: inline-block;
+	position: relative;
+	
+	border: 1px solid #41444b;
+	border-radius: 15px;
+	padding: 10px;
+	height: 450px;
+    width: 280px;
+	margin: 0px 7px;
+	margin-top: 30px;
+	transition: transform .3s linear;
+}
+
+ul#artigosEmLinha li:hover{
+	transform: scale(1.05);
+}
+article.Artigos1 figure{
+    position: relative;
+	border-radius: 15px;
+	border: 1px solid #41444b;
+	width: 270px;
+	height: 210px;
+	margin-left: 0px;
+	overflow: hidden;
+} 
+
+article.Artigos1 img{
+	display: block;
+	border-radius: 15px;
+	width: 100%;
+    height: 100%;
+    transition: transform .5s ease-in-out;
+	
+
+}
+article.Artigos1 figure:hover img{
+	transform: scale(1.1);
+    
+	
+
+}
+
+
+article.Artigos1 h2{
+	margin-top: 0px;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 13pt;
+	text-align: left;
+	margin-bottom: 10px;
+	color: #41444b;
+}
+article.Artigos1 p{
+	margin-top: -10px;
+	font-family: Arial, sans-serif;
+	/* user-select: none; */
+	color: #41444b;
+}
+
+article.Artigos1 a#lerMais{
+	font-family: 'Exo 2', sans-serif;
+	margin-left: 185px;
+    text-decoration: none;
+    color: black;
+    
+    margin-bottom: 20px;
+    color: #41444b;
+    
+  
+}
+
+article.Artigos1 a#lerMais img#seta{
+	width: 20px;
+	margin: 0px;
+	margin-left: 250px;
+	margin-top:  -20px;
+  
+}
+
+article.Artigos1 a.tituloArtigo{
+	
+    text-decoration: none;
+    color: #41444b;
+  
+}
+
+
+article.Artigos1 figure figcaption {
+	transition: .3s;
+	opacity: 0;
+	position: absolute;
+	border-radius: 15px;
+	color: rgba(0,0,0,0);
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,.1);
+	box-sizing: border-box;
+
+}
+article.Artigos1 figure:hover figcaption{
+
+	opacity:1;
+
+}
+
+div#ancora{
+	margin-top: -20px;
+	background-color: #BAC5C6;
+	margin-right: -8px;
+	height: 230px;
+	box-shadow: 0px 0px 30px #41444b; 
+	
+}
+div#ancora h1{
+	padding-top: 50px;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	padding-bottom: 30px;
+	color: #41444b; 
+}
+div#ancora a{
+	border-radius: 5px;
+	border: 1px solid #41444b;
+	padding: 10px;
+	color: #41444b;
+	text-decoration: none;
+	font-family: 'Exo 2', sans-serif;
+	transition: background-color .2s ease-in-out;
+}
+
+div#ancora a:hover{
+	background-color: #8e9596;
+}

@@ -1,0 +1,81 @@
+@charset="utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+
+/*----------Formatação da Interface----------*/
+ body{
+    background-color: #f6f4e6;
+	margin-bottom: -20px;
+}
+
+/*----------Formatação do Formulario----------*/
+
+
+form#faleConosco{
+	position: relative;
+	display: block;
+	padding: 20px;
+	width: 250px;
+	margin: 150px auto;
+	border: 1px solid black;
+	border-radius: 20px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,.2);
+	background-color: #f5ce29;
+
+	
+}
+form#faleConosco legend{
+	margin-top: 15px;
+	font-family: 'Exo 2',  sans-serif;
+	color: #41444b;
+}
+form#faleConosco span{
+	text-align: center;
+	font-family: 'Exo 2',  sans-serif;
+	font-weight: bolder;
+	text-decoration: underline #41444b;
+	color: #41444b;
+}
+form#faleConosco input#emailUser{
+	border: none;
+	border-bottom: 1px solid #41444b;
+	padding: 5px;
+	margin-top: 5px;
+	background-color: rgba(0,0,0,0);
+}
+form#faleConosco input#emailUser:valid{
+	
+	border-bottom: 2px solid green;
+	
+}
+form#faleConosco textarea#mensagemUser{
+	border:none;
+	border-bottom: 1px solid #41444b;
+	padding: 5px;
+	margin-top: 5px;
+	background-color: rgba(0,0,0,0);
+}
+
+
+form#faleConosco input#enviar{
+	color: white;
+	background-color: #41444b;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 13pt;
+	border: none;
+	padding: 10px 100px;
+	border-radius: 15px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+form#faleConosco input#assunto{
+	border: none;
+	border-bottom: 1px solid #41444b;
+	padding: 5px;
+	margin-top: 5px;
+	background-color: rgba(0,0,0,0);
+}
+
+
+
