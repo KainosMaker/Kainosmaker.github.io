@@ -144,7 +144,7 @@ body{
 	opacity: 0;
 }
 .curso-container-items div.items-cursos{
-	transition: background-color .5s ease;
+	transition: background-color .5s, border-radius .5s ease;
 }
 .curso-container-items div.items-cursos div{
 	visibility: hidden;
