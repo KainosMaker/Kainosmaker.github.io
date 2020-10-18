@@ -392,7 +392,13 @@ body{
 	.content-container{
 		width: 100%;
 	}
+	#content{
+		padding: 15px 35px;
+	}
 	.content-container h1{
 		font-size: 14pt;
+	}
+	.button{
+		padding: 15px 20px;
 	}
 }
